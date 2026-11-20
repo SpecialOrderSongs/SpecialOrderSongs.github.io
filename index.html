@@ -59,6 +59,20 @@
     border-radius: 999px;
     font-size: 0.95rem;
   }
+  .fiverr-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background: #2EC4B6;
+    color: #0B0E11;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 999px;
+    font-size: 1rem;
+  }
+  .fiverr-btn:hover { background: #FF6F61; }
   .occasions {
     margin-top: 26px;
     font-size: 0.85rem;
@@ -66,20 +80,56 @@
     text-transform: uppercase;
     color: #9AA3AB;
   }
+  .social {
+    margin-top: 18px;
+    font-size: 0.95rem;
+    color: #9AA3AB;
+  }
+  .social a {
+    color: #2EC4B6;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .social a:hover { color: #FF6F61; }
   footer {
     margin-top: 44px;
     font-size: 0.8rem;
     color: #5F686F;
   }
+  nav.tabs {
+    margin-bottom: 30px;
+  }
+  nav.tabs a {
+    color: #9AA3AB;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0 16px;
+    padding-bottom: 4px;
+  }
+  nav.tabs a:hover { color: #FF6F61; }
+  nav.tabs a.active {
+    color: #2EC4B6;
+    border-bottom: 2px solid #2EC4B6;
+  }
 </style>
 </head>
 <body>
+  <nav class="tabs">
+    <a href="index.html" class="active">Home</a>
+    <a href="pricing.html">Pricing</a>
+  </nav>
   <img class="logo" src="logo.png" alt="Special Order Songs logo">
   <h1>Special Order <span class="teal">Songs</span></h1>
   <p class="slogan">Custom songs, not off the shelf.</p>
   <p class="blurb">A real songwriter writes a song about your person, your story, your moment — hand-written lyrics with their names, your memories, and the stuff only you two would get. No templates. No generic card with music behind it.</p>
-  <div class="coming">Coming Soon</div>
+  <div class="coming">Fiverr Link Coming Soon</div>
+  <br>
+  <a class="fiverr-btn" href="https://www.fiverr.com/specialorder" target="_blank" rel="noopener">Order a Custom Song on Fiverr</a>
   <p class="occasions">Birthdays &bull; Anniversaries &bull; Weddings &bull; Kids &bull; Memorials &bull; Gifts</p>
+  <p class="social">You can also find us on <a href="https://www.tiktok.com/@specialordersongs" target="_blank" rel="noopener">TikTok</a>.</p>
   <footer>&copy; 2026 Special Order Songs</footer>
 </body>
 </html>
