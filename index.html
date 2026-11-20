@@ -96,6 +96,60 @@
     font-size: 0.8rem;
     color: #5F686F;
   }
+  .jingle {
+    margin-top: 20px;
+  }
+  .jingle p {
+    font-size: 0.8rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #9AA3AB;
+    margin-bottom: 8px;
+  }
+  .jingle audio { width: min(320px, 80vw); }
+  .how {
+    margin-top: 46px;
+    max-width: 900px;
+    width: 100%;
+  }
+  .how h2 {
+    font-family: 'League Gothic', 'Arial Narrow', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .how h2 .teal { color: #2EC4B6; }
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 20px;
+  }
+  .step {
+    background: #12181D;
+    border: 1px solid #26303A;
+    border-radius: 14px;
+    padding: 20px 22px;
+    width: 270px;
+    text-align: left;
+  }
+  .step .num {
+    font-family: 'League Gothic', 'Arial Narrow', sans-serif;
+    font-size: 1.9rem;
+    color: #FF6F61;
+  }
+  .step h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 6px 0;
+  }
+  .step p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #9AA3AB;
+  }
   nav.tabs {
     margin-bottom: 30px;
   }
@@ -125,10 +179,35 @@
   <img class="logo" src="logo.png" alt="Special Order Songs logo">
   <h1>Special Order <span class="teal">Songs</span></h1>
   <p class="slogan">Custom songs, not off the shelf.</p>
+  <div class="jingle">
+    <p>&#9835; Hear the jingle</p>
+    <audio controls preload="metadata" src="jingle.mp3"></audio>
+  </div>
   <p class="blurb">A real songwriter writes a song about your person, your story, your moment — hand-written lyrics with their names, your memories, and the stuff only you two would get. No templates. No generic card with music behind it.</p>
+  <a class="fiverr-btn" href="contact.html">Order Your Song</a>
   <div class="coming">Fiverr Link Coming Soon</div>
   <p class="occasions">Birthdays &bull; Anniversaries &bull; Weddings &bull; Kids &bull; Memorials &bull; Gifts</p>
   <p class="social">You can also find us on <a href="https://www.facebook.com/share/1BqBiXD93n/" target="_blank" rel="noopener">Facebook</a> and <a href="https://www.tiktok.com/@specialordersongs" target="_blank" rel="noopener">TikTok</a>.</p>
+  <div class="how">
+    <h2>How It <span class="teal">Works</span></h2>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>Tell me your story</h3>
+        <p>Who it's for, the occasion, the memories and inside jokes that have to be in it. A few quick questions — that's all I need.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>I write &amp; produce it</h3>
+        <p>Original lyrics written by hand around your details, produced in whatever style fits your person — folk to metal and everywhere between.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>Your song lands</h3>
+        <p>Finished track in 2–3 days depending on the package. If a line doesn't land, revisions are included until it does.</p>
+      </div>
+    </div>
+  </div>
   <footer>&copy; 2026 Special Order Songs</footer>
 </body>
 </html>
